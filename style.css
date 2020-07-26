@@ -403,6 +403,8 @@ body {
   border-top-style: hidden !important;
   border-right-style: hidden !important;
   border-left-style: hidden;
+  width: 75%;
+  margin-bottom:20px !important;
 }
 
 
