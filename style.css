@@ -98,8 +98,10 @@ body {
 .vertical { 
     border-left: 3px solid white;
     height: 200px;
-    left: 10%;    
+    margin-left: 10px;
 }
+
+
 
   .logo  {
     display: flex;
