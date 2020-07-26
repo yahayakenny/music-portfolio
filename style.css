@@ -2,6 +2,7 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
+  background-color: black;
 }
 
 
@@ -395,6 +396,16 @@ body {
     background-color: #E66C28;
     
 }
+
+
+.form-group input {
+  background-color: transparent;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden;
+}
+
+
 
 
 @media (max-width: 767px){
