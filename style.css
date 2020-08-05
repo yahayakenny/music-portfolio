@@ -2,6 +2,7 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
+  background-color: black;
 }
 
 
@@ -354,7 +355,7 @@ body {
     color: #E66C28; 
     border: 2px solid #E66C28;
     background-color: black;
-    padding: 5px 15px !important;
+    padding: 5px 10px !important;
     font-weight: bolder;
     font-size: 18px !important;
 }
@@ -402,9 +403,26 @@ body {
 
 
 .form-group input {
+<<<<<<< HEAD
   border-top-style: hidden !important;
   border-right-style: hidden !important;
   border-left-style: hidden;
+=======
+  background-color: transparent;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden;
+  width: 75%;
+  margin-bottom:20px !important;
+}
+.form-group input:focus {
+  background-color: transparent;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden;
+  width: 75%;
+  margin-bottom:20px !important;
+>>>>>>> 4a6768d2a1a5a56c1779c4c49d77e3437c84742d
 }
 
 
@@ -457,6 +475,9 @@ body {
     }
 
     .about .logo {
+        display: none;
+    }
+    .tracks .logo {
         display: none;
     }
     .carousel .logo {
