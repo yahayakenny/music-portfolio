@@ -43,14 +43,18 @@ body {
     background-image: url(images/photo-1529847556963-9653a9366021\ 1.png);
     width: 100% !important;
     height: 800px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     position: relative;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
+    }
    
     
-}
+
 
 .landing-text { 
 	text-align: center;
@@ -395,6 +399,15 @@ body {
     background-color: #E66C28;
     
 }
+
+
+.form-group input {
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden;
+}
+
+
 
 
 @media (max-width: 767px){
