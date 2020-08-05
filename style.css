@@ -2,7 +2,7 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
-  background-color: black;
+  background-color:black;
 }
 
 
@@ -15,6 +15,10 @@ body {
 .navbar li a{
     color: white;
 
+}
+
+hr {
+    border: 1px solid grey !important;
 }
 
 .navbar {
@@ -44,6 +48,7 @@ body {
     background-image: url(images/photo-1529847556963-9653a9366021\ 1.png);
     width: 100% !important;
     height: 800px;
+    display: table;
     position: relative;
     background-position:center; 
     background-attachment:scroll; 
@@ -134,7 +139,7 @@ body {
 
 .about {
     position: relative;
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png)
+    
 }
 
 
@@ -215,7 +220,6 @@ body {
 }
 
 .achievements {
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -258,13 +262,8 @@ body {
     color: white;
     font-size: 50px ;
     font-weight: bolder; 
-
 }
 
-
-.songs {
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
-}
 
 .songs h1{
     color: #E66C28;
@@ -312,7 +311,6 @@ body {
 }
 
 .tracks {
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
     padding: 70px 0;
 }
 
@@ -328,7 +326,6 @@ body {
 .track img {
     width: 100% !important;
 }
-
 
 
 .track {
@@ -360,7 +357,7 @@ body {
     font-size: 18px !important;
 }
 .contact {
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+    
     padding: 70px 0;
 
 }
